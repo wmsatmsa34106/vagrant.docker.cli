@@ -10,7 +10,7 @@ Last login: Sun May 15 08:06:36 UTC 2022 on pts/0
 [root@centos8 BashAlpine]# docker-compose -f docker-compose.point_image.yml up -d
 [root@centos8 BashAlpine]# docker-compose exec bash /innervagrant/1st.kick.bash
 # defualt vagrant/vbox host/win mount path %AppData:C:=V:%\centos8\wkwk\BashAlpine
-# bash.profile 1st. kick bat
+# bash.profile ini.,  1st. kick bat
 # bash5.2b / 2022.05
 ```
 
