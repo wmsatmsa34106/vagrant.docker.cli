@@ -8,7 +8,7 @@
     - sudo systemctl start docker
     - sudo systemctl enable docker
     - # docker commpose
-    - sudo curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    - sudo curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose ; # 2022/05.
     - sudo chmod +x /usr/local/bin/docker-compose
     - sudo su -
     - docker-compose -v
