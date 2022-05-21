@@ -9,6 +9,10 @@
     - sudo docker -v
     - sudo systemctl start docker
     - sudo systemctl enable docker
+    - # etc.
+    - # https://docs.docker.com/engine/install/centos/
+    - # http://docs.docker.jp/engine/installation/linux/docker-ce/centos.html#install-using-the-repository
+    - # https://download.docker.com/linux/centos/
     - # docker commpose
     - sudo curl -L https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose ; # 2022/05.
     - sudo chmod +x /usr/local/bin/docker-compose
