@@ -1,0 +1,8 @@
+- bing|google : "vagrant fedora"
+- bing|google : "fedora kernelバージョン 対応表"
+    - https://app.vagrantup.com/fedora
+        - vagrant 公式BOX
+        - https://app.vagrantup.com/fedora/boxes/36-cloud-base/versions/36-20220504.1
+    - https://kernel.org/ ... Fedoraは比較的最先端のカーネルを載せているゆえ、、、
+    - https://www.hpe.com/jp/ja/servers/linux/matrix/index-26-fedora.html
+        - Fedora のバージョンとカーネルの対応関係
