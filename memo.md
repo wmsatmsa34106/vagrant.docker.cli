@@ -29,8 +29,11 @@
         - title : dnf コマンドの使い方メモ - Qiita
 
 - bing|google : vagrantfile port ssh 指定
+- bing|google : vagrantfile auto_correct
     - どうも、最近のVagrantはお任せで、SSHポートを決めた方がよさそうみたい。
-
+- https://qiita.com/nouka/items/38c5130c03233a9e6d40
+    - title : Vagrantでポート番号が衝突したときの対処法（Windows） - Qiita
+- 
 
 - k8s/Kubernetes, Single control plane（シングルコントロールプレーン）
     - 結論はこれらしい
