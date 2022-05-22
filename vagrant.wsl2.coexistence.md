@@ -1,0 +1,8 @@
+- google : wsl2 virtualbox 共存
+- google : docker vagrant
+    - https://penpen-dev.com/blog/docker-vagrant-virtualbox/
+        - title : dockerをインストールしたらvagrant up（virtualbox）が起動しなくなった件
+        - memo : これが結論？
+    - https://zenn.dev/jinwatanabe/articles/4f8e62aac86f386d799b
+        - title : Vagrantの上にDockerを載せて開発環境を作成する
+    - 
