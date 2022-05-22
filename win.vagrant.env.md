@@ -9,6 +9,10 @@
         - vagrant 2.2.19/ Windows10(Pro/ Home) /VirtualBox 6.1.14
             - VirtualBox : https://www.oracle.com/jp/virtualization/technologies/vm/downloads/virtualbox-downloads.html
                 - Oracle.ja な VirtualBoxより取得が望ましい模様。
+                - 2022/05/21 ... 別に用意した環境では、vagrant 2.2.19 / VirtualBox 6.1.34 でも動く模様、、、（何が何やら、、、公式がビルドしなおしたんだろうか、、、）
+                    - （ある意味当たり前？だが？？？）VirtualBoxをインストールしたら、一度マシンを再起動した方がいいみたい。
+                    - しないと、こういったエラー（多分一例）が出るらしい。
+                        - [win.vagrant.up.virtualbox.noreboot.errmsg.md](./win.vagrant.up.virtualbox.noreboot.errmsg.md)
         - vagrant 2.2.19/ Windows11(Pro/ Home?) /VirtualBox 6.1.34
             - https://www.virtualbox.org/wiki/Downloads の『Windows hosts』リンクからゲットがおすすめな模様
                 - 本家公式を取得が正しい模様。
