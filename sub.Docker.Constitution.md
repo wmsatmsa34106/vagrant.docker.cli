@@ -4,7 +4,8 @@
     - sudo dnf update
     - # if "curl: (6) Couldn't resolve host.."
     - # https://qiita.com/bz0/items/7d4bac34c6cdada59b94
-    - sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    - # sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+        - sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
     - sudo dnf install -y docker-ce docker-ce-cli containerd.io
     - sudo docker -v
     - sudo systemctl start docker

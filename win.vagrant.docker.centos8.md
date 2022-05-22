@@ -14,6 +14,7 @@ git checkout -b vagrant_work
 git add Vagrantfile
 git commit -m "vagrant init. , generic/centos8."
 REM edit
+git diff
 || diff --git a/Vagrantfile b/Vagrantfile
 || index db38691..e6e7ff0 100644
 || --- a/Vagrantfile
@@ -32,8 +33,15 @@ REM edit
 ||    # the path on the guest to mount the folder. And the optional third
 ||    # argument is a set of non-required options.
 || -  # config.vm.synced_folder "../data", "/vagrant_data"
-|| +  config.vm.synced_folder "../share", "/share"
+|| +  config.vm.synced_folder "./share", "/share"
 vagrant up
-
-
+REM vagrant message.... ./win.vagrant.up.entos8.log.md
+vagrant ssh
+# 以降、vagrant のcentos8内部で
+sudo dnf -y upgrade
+sudo dnf -y update
+# Docker を dnfインストール構成していく todo task Dockerの"UserLand"化
+# ./sub.docker.constitution.md
+ls -al /share/wkwk/02; # この辺りに Hello DockerCompose を構成
 ```
+

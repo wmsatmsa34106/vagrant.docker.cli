@@ -8,3 +8,16 @@
         - おススメはこうかな？
             - `` %AppData:C:={Drive letters other than C drive}:% ``
 
+- その他
+    - ${HomePath}/.vagrant.d も移動しないといけないことに気が付いた
+    - bing|google : vagrant .vagrant.d windows
+        - keyword's
+            - vagrant box windows ローカル
+            - vagrant box パス取得
+            - vagrant box windows 格納パス
+        - https://qastack.jp/programming/14733681/vagrant-d-outside-of-the-home-folder
+            - memo : https://stackoverflow.com/programming/14733681/vagrant-d-outside-of-the-home-folder/23582609#23582609    
+        - http://orca8.blogspot.com/2014/08/vagrantd.html
+            - .vagrant.dフォルダの場所を変更する | orca8の備忘録
+
+
