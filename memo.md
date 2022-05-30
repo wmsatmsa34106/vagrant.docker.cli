@@ -58,3 +58,7 @@
         - title : Amazon VPC CNI プラグインでノード 1 台に配置可能な Pod 数を増やすために | Amazon Web Services ブログ
     - 
 
+- Docker tutorial & env.setting.cf
+    - https://zenn.dev/
+        - https://zenn.dev/suzuki_hoge/books/2022-03-docker-practice-8ae36c33424b59/viewer/3-8-docker-compose
+        - https://zenn.dev/hinoshiba/articles/workstation-on-docker
