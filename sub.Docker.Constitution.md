@@ -15,7 +15,8 @@
     - # http://docs.docker.jp/engine/installation/linux/docker-ce/centos.html#install-using-the-repository
     - # https://download.docker.com/linux/centos/
     - # docker commpose
-    - sudo curl -L https://github.com/docker/compose/releases/download/v2.5.1/docker-compose-$(echo `uname -s` | tr '[:upper:]' '[:lower:]')-`uname -m` -o /usr/local/bin/docker-compose ; # 2022/05., 05/18 rel.update
+    - sudo curl -L https://github.com/docker/compose/releases/download/v2.6.0/docker-compose-$(echo `uname -s` | tr '[:upper:]' '[:lower:]')-`uname -m` -o /usr/local/bin/docker-compose ; # 2022/05., 06/04 rel.update
+    - # https://github.com/docker/compose/releases/
     - sudo chmod +x /usr/local/bin/docker-compose
     - sudo su -
     - docker-compose -v
