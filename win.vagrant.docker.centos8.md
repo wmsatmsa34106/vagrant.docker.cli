@@ -140,4 +140,6 @@ sudo dnf -y update
 # ./sub.docker.constitution.md
 ls -al /share/wkwk/02; # この辺りに Hello DockerCompose を構成
 
+# k8s も使えるようにしよう
+# ./sub.K8s.Constitution.md
 ```
