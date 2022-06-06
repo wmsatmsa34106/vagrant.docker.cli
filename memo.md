@@ -139,3 +139,6 @@
     - https://laragon.org/download/migrate-from-others.html
     - 
 
+- work
+    - 本当は、Dockerのｍｄに更新
+    - sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
