@@ -33,7 +33,7 @@
     - sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
     - # 他
     - # https://kamihikouki.hatenablog.com/entry/2016/11/12/012345
-    - # ただし、この設定だと "error message" が表示される状態なのでsudoする（未解決）
+    - # ただし、この設定だと "error message" が表示される状態なのでsudoする/ Docker を Vagrant ユーザで使いたい を後で設定
     - sudo docker-compose up
     - sudo docker-compose down
     - # error message.
