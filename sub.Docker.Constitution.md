@@ -62,3 +62,4 @@
     - sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 - この時点で、vagrant/docker の場合は、 一旦抜けてから `` vagrant reload `` する
+    - 多分、各権限で `` source ~/.bash_profile `` すれば良さそうだが、Windowsの挙動不審もあるので、無難な全再起動をかける
