@@ -61,3 +61,4 @@
     - # root外でも使えるように置いておく
     - sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+- この時点で、vagrant/docker の場合は、 一旦抜けてから `` vagrant reload `` する
